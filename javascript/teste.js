@@ -1,6 +1,5 @@
-let jogadores = [10,5]
-let resultado = 0
-for (let conta of jogadores) {
-resultado += conta
+function dobrar(numero) {
+    return 2 * numero
 }
+let resultado = dobrar(10)
 console.log(resultado)
