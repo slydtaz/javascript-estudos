@@ -3,11 +3,9 @@ let resultado = 0
 let Mediafinal = 0
 function calcularsoma() {
     for (let conta of Notas)
-         resultado += conta
-    
-    if (resultado === Notas[conta] + Notas.length) {
-        return resultado += conta
-    }
+        resultado += conta
+
+    return resultado
 }
 function calcularMedia() {
 calcularsoma()
