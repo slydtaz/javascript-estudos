@@ -1,15 +1,12 @@
-let Notas = [6,5,7,9,4]
-let resultado = 0
-let Mediafinal = 0
-function calcularsoma() {
-    for (let conta of Notas)
-        resultado += conta
+let numeros = [10,20,30,40,50]
+let total = 0
+function somarNumeros(parametro) {
+    for (let i = 0; i < parametro; i ++)
+    
+    return total += parametro[i]
+    
+}
 
-    return resultado
-}
-function calcularMedia() {
-calcularsoma()
-return Mediafinal = resultado / Notas.length
-}
-calcularMedia()
-console.log(Mediafinal)
+let resultado = somarNumeros(numeros)
+
+console.log(resultado)
