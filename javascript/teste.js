@@ -1,5 +1,13 @@
-function dobrar(numero) {
-    return 2 * numero
+let Notas = [6,5,7,9,4]
+let resultado = 0
+let Mediafinal = 0
+function calcularsoma() {
+    for (let conta of Notas)
+        return resultado += conta
 }
-let resultado = dobrar(10)
-console.log(resultado)
+function calcularMedia() {
+calcularsoma()
+return Mediafinal = resultado / 3
+}
+calcularMedia()
+console.log(Mediafinal)
