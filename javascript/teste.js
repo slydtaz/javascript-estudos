@@ -4,8 +4,8 @@ let Mediafinal = 0
 function calcularsoma() {
     for (let conta of Notas)
          resultado += conta
-    for (let i = 0; i < Notas.length; i++)
-    if (resultado === Notas[i] + Notas.length) {
+    
+    if (resultado === Notas[conta] + Notas.length) {
         return resultado += conta
     }
 }
