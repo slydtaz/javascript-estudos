@@ -1,8 +1,8 @@
-let jogador1 = {
-    nome:"artur",
-    idade:14,
-    nivel:20
+let jogador = {
+    nome: "Steve",
+    vida: 20,
+    nivel: 10
 }
-console.log(jogador1.nome)
-console.log(jogador1.idade)
-console.log(jogador1.nivel)
+for (let propriedades in jogador) {
+    console.log(propriedades + ": " + jogador[propriedades])
+}
