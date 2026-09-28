@@ -1,12 +1,8 @@
-let idades = [12, 15, 18, 14, 20, 16]
-let resultado = 0
-function contarMaiores(parametro) {
-    for (let ages of parametro) {
-     if (ages >= 18){
-        resultado++
-     }
-    }
-    return resultado
+let jogador1 = {
+    nome:"artur",
+    idade:14,
+    nivel:20
 }
-contarMaiores(idades)
-console.log(resultado)
+console.log(jogador1.nome)
+console.log(jogador1.idade)
+console.log(jogador1.nivel)
