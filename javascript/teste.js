@@ -1,12 +1,9 @@
-let numeros = [10,20,30,40,50]
-let total = 0
-function somarNumeros(parametro) {
-    for (let i = 0; i < parametro.length ; i ++) {
-        total += parametro[i]
+let idades = [12, 15, 18, 14, 20, 16]
+let resultado = 0
+function contarMaiores() {
+    for (let ages of idades) {
+        resultado >= ages
     }
-    return total
+    return resultado
 }
-
-let resultado = somarNumeros(numeros)
-
 console.log(resultado)
