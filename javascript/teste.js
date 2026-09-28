@@ -6,7 +6,7 @@ let jogador = {
 function adicionar_propriedade(a,b) {
     jogador[a] = b
 }
-adicionar_propriedade(Mundo,"overworld")
+adicionar_propriedade("Mundo","Overworld")
 for (let propriedades in jogador) {
     console.log(propriedades + ": " + jogador[propriedades])
 }
