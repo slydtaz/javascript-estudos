@@ -3,10 +3,10 @@ let jogador = {
     vida: 20,
     nivel: 10
 }
-function dano(numero) {
-    jogador.vida -= numero
+function adicionar_propriedade(a,b) {
+    jogador[a] = b
 }
-dano(5)
+adicionar_propriedade(Mundo,"overworld")
 for (let propriedades in jogador) {
     console.log(propriedades + ": " + jogador[propriedades])
 }
